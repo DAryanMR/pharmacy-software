@@ -1,0 +1,29 @@
+
+
+Login Page (Done)
+ - Info update
+ - Roles
+
+Salary/Costs Page (Done)
+ - Insert expense type and amount
+   - QTY popup and confirmation
+ - Search, Update and Delete
+   
+
+Reports Page (Done)
+ - Show total monthly expense
+ - Calculate monthly profit
+
+
+Binding + Decoration
+
+
+Monitoring
+ - Create table Monitors (m_id, date, u_id, login_time, logout_time)
+ - On login
+   - Insert into Monitors (date, u_id, login_time)
+ - On Logout 
+   - Update Monitors set logout_time=?
+     WHERE date like ?
+     WHERE u_id = ?
+     (logout_time, date, u_id,)
